@@ -11,18 +11,30 @@
 <body>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+    <!-- <script type="text/javascript" src="assets/javascript/jquery.min.js"></script> -->
+
     <div id="page1">
 
         <h1 id="title">French Revolution Trivia Game!</h1>
 
         <div class="time-remaining"></div>
 
-        <div class="question-section">
-            <!-- <input type="radio" id="r1" name="rate" value="Fixed Rate"> Fixed Rate
-            <input type="radio" id="r2" name="rate" value="Variable Rate"> Variable Rate
-            <input type="radio" id="r3" name="rate" value="Multi Rate"> Multi Rate  -->
-        </div>
+        <div id="question1"></div>
+        <form>
+            <input id="button1" type="radio" name="q1" value="one"><span id="choice1"></span></input>
+            <input type="radio" name="q1" value="two"><span id="choice2"></span></input>
+            <input type="radio" name="q1" value="three"><span id="choice3"></span></input>
+        </form>
+
+        <div id="question2"></div>
+            <input type="radio"><span id="choice4"></span></input>
+            <input type="radio"><span id="choice5"></span></input>
+            <input type="radio"><span id="choice6"></span></input>
+
+        <div id="question3"></div>
+            <input type="radio"><span id="choice7"></span></input>
+            <input type="radio"><span id="choice8"></span></input>
+            <input type="radio"><span id="choice9"></span></input>
 
         <div class="button">
             <button id="submit">Submit</button>
@@ -34,14 +46,15 @@
     <div id="page2">
         <!-- All Done! -->
         <h1 id="title2">All Done!</h1>
+        <div id="image"></div>
         <!-- correct answers -->
         <div id="correct-answers">Correct Answers</div> 
         <!-- incorrect answers -->
         <div id="incorrect-answers">Incorrect Answers</div>
         <!-- unanswered -->
-        <div id="unanswered">Unanswered Questions</div>
+        <div id="unanswered">Unanswered Questions:</div>
         <!-- wins and losses -->
-        <div class="wins-losses">Wins: <br><br>Losses: </div>
+        <div class="wins-losses"></div>
         <div class="button2">
             <button id="play-again">Play Again</button>
         </div>
