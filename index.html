@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trivia Game!</title>
 </head>
@@ -12,26 +12,39 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    <h1 id="title">French Revolution Trivia Game!</h1>
+    <div id="page1">
 
-    <div class="question-section">
-        <div class="questions"></div>
-        <div class="questions"></div>
-        <div class="questions"></div>
-        <div class="questions"></div>
-    </div>
+        <h1 id="title">French Revolution Trivia Game!</h1>
 
-    <div class="time-remaining"></div>
+        <div class="time-remaining"></div>
 
-    <div class="wins-losses"></div>
+        <div class="question-section">
+            <!-- <input type="radio" id="r1" name="rate" value="Fixed Rate"> Fixed Rate
+            <input type="radio" id="r2" name="rate" value="Variable Rate"> Variable Rate
+            <input type="radio" id="r3" name="rate" value="Multi Rate"> Multi Rate  -->
+        </div>
 
-    <!-- All Done! -->
-    <!-- correct answers -->
-    <!-- incorrect answers -->
-    <!-- unanswered -->
+        <div class="button">
+            <button id="submit">Submit</button>
+        </div>
 
-    <div class="button">
-        <button id="button1">Submit</button>
+    </div>  
+
+
+    <div id="page2">
+        <!-- All Done! -->
+        <h1 id="title2">All Done!</h1>
+        <!-- correct answers -->
+        <div id="correct-answers">Correct Answers</div> 
+        <!-- incorrect answers -->
+        <div id="incorrect-answers">Incorrect Answers</div>
+        <!-- unanswered -->
+        <div id="unanswered">Unanswered Questions</div>
+        <!-- wins and losses -->
+        <div class="wins-losses">Wins: <br><br>Losses: </div>
+        <div class="button2">
+            <button id="play-again">Play Again</button>
+        </div>
     </div>
 
     <script type="text/javascript" src="assets/javascript/app.js"></script>

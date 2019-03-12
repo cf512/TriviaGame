@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/french-revolution2.jpg");
+    opacity: 75%
+}
+
+#page1, #page2 {
+    background-color: white;
+    opacity: 0.8;
+    width: 800px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#title, .time-remaining {
+    text-align: center
+}
