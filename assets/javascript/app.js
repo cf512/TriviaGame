@@ -317,11 +317,13 @@ $(document).ready(function() {
         hidePage1();
         // loads "page2" contents
         showPage2();
-        // updates all the displayed stats
+        // updates all the displayed stats and Time Remaining text to have blank seconds
         $("#correct-answers").text("Correct Answers: "+ correct);
         $("#incorrect-answers").text("Incorrect Answers "+ incorrect);
         $("#unanswered").html("Unanswered Questions: "+ unanswered);
         $("#wins-losses").html("Wins: " + wins + "<br>Losses: " + losses);
+        $(".time-remaining").html("<h2>Time Remaining: ");
+        
     });
 
     // Starts the game over again
@@ -332,6 +334,8 @@ $(document).ready(function() {
         showPage1();
         // resets the clock to 30 seconds
         resetTime();
+        // kicks off the clock again
+        run();
         // clears the selection of the radio buttons
         $("input").prop("checked", false);
         // resets button status back to inital state of null
