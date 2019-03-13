@@ -1,10 +1,15 @@
 # JavaScript Assignment 2
 
-### Some Notes
+### Developer's Notes
 
-Testing git branching.
+Despite it's simple appearance and functionality, this was a pretty tough assignment. I thought it would be focused mostly 
+around Timers, since it's the homework for the Timers section, but the timer aspects of this were the simpler parts. The 
+quiz parts were far more challenging. It was challenging to get jQuery and input forms with radio buttons to play together. 
+I had to do some of this long-hand after striking out with a few bulk approaches, so one thing is for sure: there would 
+have to be a better way to code some parts of this game. (Fun fact: the French Revolution was one of my favorite topics in 
+high school European History class, so that's what inspired the theme of this game.) 
 
-### Overview
+### The Original Assignment Instructions (kept here for posterity)
 
 In this assignment, You'll create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Be sure to layout this app with valid HTML and stylish CSS.
 
