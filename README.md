@@ -9,6 +9,10 @@ I had to do some of this long-hand after striking out with a few bulk approaches
 have to be a better way to code some parts of this game. (Fun fact: the French Revolution was one of my favorite topics in 
 high school European History class, so that's what inspired the theme of this game.) 
 
+### Site
+
+https://cf512.github.io/TriviaGame/
+
 ### The Original Assignment Instructions (kept here for posterity)
 
 In this assignment, You'll create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Be sure to layout this app with valid HTML and stylish CSS.
